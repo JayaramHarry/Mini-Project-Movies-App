@@ -6,7 +6,7 @@ import './index.css'
 
 class Login extends Component {
   state = {
-    username: "rahul",
+    username: 'rahul',
     password: 'rahul@2021',
     showSubmitError: false,
     errorMsg: '',
