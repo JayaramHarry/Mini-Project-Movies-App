@@ -9,7 +9,7 @@ const Account = props => {
   // to convert into astric we can use the repeat function
   // syntax : string.repeat(count);
 
-  const passwordInAsterisk = '*'.repeat(password.length)
+  const passwordInAsterisk = `{'*'.repeat(password.length)}`
   const onClickLogout = () => {
     const {history} = props
     Cookies.remove('jwt_token')
